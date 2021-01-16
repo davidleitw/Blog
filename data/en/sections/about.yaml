@@ -1,0 +1,56 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Student
+
+# your company information
+company:
+  name: National Central University
+  url: https://www.networklab.csie.ncu.edu.tw/
+
+# # your resume. this file path should be relative to you "static" directory
+# resume: "files/resume.pdf"
+
+# a summary about you
+summary: '
+  平常喜歡追番，看輕小說，寫寫side project，希望自己的程式可以幫助到那些需要幫助的人。
+'
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/davidleitw"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "#"
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "#"
+- name: Facebook
+  icon: "fab fa-facebook"
+  url: "#"
+- name: Steam
+  icon: "fab fa-steam"
+  url: "#"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: 追番
+  percentage: 100
+  color: blue
+- name: 輕小說
+  percentage: 100
+  color: yellow
+- name: coding
+  percentage: 100
+  color: pink

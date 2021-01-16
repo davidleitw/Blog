@@ -1,0 +1,24 @@
+baseURL: https://davidleitw.github.io
+
+languageCode: en-us
+defaultContentLanguage: en
+title: davidlei Blog
+theme: toha
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Control TOC depth
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+enableEmoji: true
+
+param:
+  enableTOC: true
+  enableBlogPost: true

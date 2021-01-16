@@ -1,0 +1,11 @@
+# Copyright Notice
+copyright: ©2021 create by DAVID LEI
+
+# Meta description for your site.  This will help the search engines to find your site.
+description: Portfolio and personal blog of Davidlei.
+
+customMenus:
+- name: Posts
+  url: /posts/
+- name: GitHub
+  url: https://github.com/davidleitw
