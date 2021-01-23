@@ -23,3 +23,20 @@ experiences:
     - Linux kernel
     - Container
     - ....
+- company:
+    name: I-SHOU University CSIE
+    url: "https://www2.isu.edu.tw/2018/homepage_v01.php?dept_mno=639"
+    location: Yanchao District, Kaohsiung City, Taiwan
+    # company overview
+    # overview: 主要做網路相關的研究(SDN/NFV)，也對於container/k8s, linux等領域非常有興趣。
+  positions:
+  - designation: Bachelor's degree
+    start: Sep 2016
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    # responsibilities:
+    # - SDN/NFV
+    # - Linux kernel
+    # - Container
+    # - ....

@@ -4,17 +4,13 @@ date: 2020-06-08T08:06:25+06:00
 description: Introduction to Sample Post
 menu:
   sidebar:
-    name: Introduction
+    name: About me
     identifier: introduction
     weight: 10
 author:
   name: 
 math: true
 ---
-
-## Me
- 
---- 
 
 一個喜歡宅在家追番寫程式的肥宅，閒暇之餘也會看輕小說，歐美劇。
 

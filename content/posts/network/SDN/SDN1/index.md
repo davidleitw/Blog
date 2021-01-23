@@ -1,12 +1,12 @@
 ---
-title: "SDN入門文章(1) - 什麼是SDN" 
-date: 2020-06-08T08:06:25+06:00
+title: "SDN入門文章(1): 什麼是SDN" 
+date: 2020-01-07T08:06:25+06:00
 menu:
   sidebar:
     name: "SDN_01: 什麼是SDN"
     identifier: SDN_1
     parent: SDN
-    weight: 12
+    weight: 14
 math: true
 ---
 
@@ -95,3 +95,6 @@ OpenFlow 允許從遠端控制網路交換器的封包轉送表，透過新增�
 > - [OpenFlow 1.0 spec](https://opennetworking.org/wp-content/uploads/2013/04/openflow-spec-v1.0.0.pdf)
 > - [OpenFlow: Enabling Innovation in Campus Networks](https://www.researchgate.net/publication/220195143_OpenFlow_Enabling_innovation_in_campus_networks)
 > - [協定心得](https://www.cnblogs.com/ssyfj/tag/SDN/)
+
+下一篇文章會從 OpenFlow 1.0 開始講起，後續再補充 OpenFlow 1.3 新增了哪些東西。
+目前最常使用的就是 OpenFlow 1.3 的版本，在商業上的應用最廣泛(支援 OpenFlow 的 Switch很多都是支援 OpenFlow 1.3版本) 

@@ -30,20 +30,20 @@ projects:
   role: Owner
   timeline: "Jul 2020 - Present"
   repo: https://github.com/davidleitw/goGamer
-  summary: 巴哈姆特電玩資訊站場外討論串API, 以go語言編寫.
+  summary: 巴哈姆特電玩資訊站場外討論串API, 以go語言編寫。
   tags: ["hobby", "golang"]
 - name: AnimeBot
   logo: /images/sections/projects/bot.jpg
   role: Owner
   timeline: "Oct 2020 - Present"
   repo: https://github.com/davidleitw/AnimeBot
-  summary: 為了紀錄想要追的番而寫的line bot，目前還在思考要怎麼實現自動化更新每一季的新作品.
+  summary: 為了紀錄想要追的番而寫的line bot，目前還在思考要怎麼實現自動化更新每一季的新作品。
   tags: ["hobby", "golang"]
 - name: gin-oauth2-example
   role: Owner
   timeline: "Sep 2020 - Present"
   repo: https://github.com/davidleitw/gin-oauth2-example
-  summary: 學習Oauth2協定時寫的簡單範例，串接github, facebook, google為例.
+  summary: 學習Oauth2協定時寫的簡單範例，串接github, facebook, google為例。
   tags: ["hobby", "example", "golang"]
 - name: AwesomeChatbots
   role: Contributor
@@ -55,6 +55,6 @@ projects:
   role: Owner
   timeline: "Present"
   repo: https://github.com/davidleitw/learn_SDN
-  summary: 最近剛開始的專案，希望可以紀錄並整理自己入門SDN領域的心得
+  summary: 最近剛開始的專案，希望可以紀錄並整理自己入門SDN領域的心得。
   tags: ["hobby", "python"]
   
