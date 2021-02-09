@@ -8,7 +8,7 @@ menu:
     parent: SDN
     weight: 14
 math: true
----
+--- 
 ## 前言
 
 想要深入了解一個協定的內容，看規格書是最快的，因為剛開始學習 SDN 相關的知識，所以目前正在讀OpenFlow1.0相關的內容，這篇文章會先主要介紹**OpenFlow 1.0的架構**，以及一些 spec 的整理。
