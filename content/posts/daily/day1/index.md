@@ -25,3 +25,6 @@ math: true
 - [x] MIT 6.824: Lec3 + **paper: The Google File System** 剛開始看
 - [x] LeetCode:146. LRU Cache
 
+#### 2020/02/10
+- [x] 閱讀文章: [LRU/LFU解析](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/LRU:LFU_interview.md)
+
