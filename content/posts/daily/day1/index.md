@@ -28,3 +28,6 @@ math: true
 #### 2020/02/10
 - [x] 閱讀文章: [LRU/LFU解析](https://github.com/halfrost/Halfrost-Field/blob/master/contents/Go/LRU:LFU_interview.md)
 
+#### 2020/02/11
+- [x] LeetCode: 460. LFU Cache
+- [x] 繼續閱讀 **paper: The Google File System**
