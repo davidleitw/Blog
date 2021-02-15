@@ -31,3 +31,6 @@ math: true
 #### 2020/02/11
 - [x] LeetCode: 460. LFU Cache 繼續挑戰中
 - [x] 繼續閱讀 **paper: The Google File System**
+
+#### 2020/02/15
+- [x] MIT 6.824: Lec3 
