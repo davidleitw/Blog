@@ -4,7 +4,7 @@ date: 2021-02-20
 menu:
   sidebar:
     name: "2021年學習目標"
-    identifier: Daily2
+    identifier: Daily
     parent: DailyLearn
     weight: 16
 math: true
