@@ -14,7 +14,7 @@ git add .
 git commit -m "update post"
 git push 
 
-# rm -rf ~/桌面/davidleitw.github.io/*
+rm -rf ~/桌面/davidleitw.github.io/*
 printf "after rm -rf\n"
 ls ~/桌面/davidleitw.github.io/
 cp -r public/. ~/桌面/davidleitw.github.io
