@@ -34,3 +34,7 @@ math: true
 
 #### 2020/02/15
 - [x] MIT 6.824: Lec3 
+
+#### 2020/02/19
+- [x] LeetCode: 2. Add Two Numbers
+- [x] [BlueAbyss專案](https://github.com/davidleitw/BlueAbyss) 初步構思 backup worker channel，假設 pool 的使用率達到一定程度，用一條 goroutine 來協調生成 backup channel 緩衝。
