@@ -14,7 +14,7 @@ math: true
 
 - 每週至少兩題LeetCode題目
 - 每月至少一篇paper閱讀心得(會先閱讀一些經典的分散式系統 paper)
-  - 二月: [The Google File System(暫定)]()
+  - 二月: [The Google File System(暫定)](https://pdos.csail.mit.edu/6.824/papers/gfs.pdf)
 - 每三個月至少一本書的心得(已經囤積了接近20本書沒看..多少消化一下)  
 - 找時間再讀一輪 ```Computer Networking: A Top-Down Approach```
   - 常常參考面試心得文有關於網路相關的題目自己沒辦法很清楚的回答，感覺基礎不是很好。
