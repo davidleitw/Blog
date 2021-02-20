@@ -38,3 +38,6 @@ math: true
 #### 2021/02/19
 - [x] LeetCode: 2. Add Two Numbers
 - [x] [BlueAbyss專案](https://github.com/davidleitw/BlueAbyss) 初步構思 backup worker channel，假設 pool 的使用率達到一定程度，用一條 goroutine 來協調生成 backup channel 緩衝。
+
+#### 2021/02/20
+- [x] [BlueAbyss專案](https://github.com/davidleitw/BlueAbyss) 應該要把workerQueue中back channel移動到外面，獨立出來，還在構思怎麼抽比較合適。
