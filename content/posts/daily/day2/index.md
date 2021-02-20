@@ -4,7 +4,7 @@ date: 2021-02-20
 menu:
   sidebar:
     name: "2021年學習目標"
-    identifier: Daily2
+    identifier: Daily
     parent: DailyLearn
     weight: 16
 math: true
@@ -20,3 +20,5 @@ math: true
   - 常常參考面試心得文有關於網路相關的題目自己沒辦法很清楚的回答，感覺基礎不是很好。
 
 目前預計七月份左右就會進駐實驗室，希望可以盡快上手相關的基本知識。
+
+> 測試hugo指令是否正常

@@ -4,7 +4,7 @@ date: 2021-02-09
 menu:
   sidebar:
     name: "每日進度彙整"
-    identifier: Daily
+    identifier: Daily1
     parent: DailyLearn
     weight: 16
 math: true
