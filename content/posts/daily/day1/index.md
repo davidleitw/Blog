@@ -41,3 +41,6 @@ math: true
 
 #### 2021/02/20
 - [x] [BlueAbyss專案](https://github.com/davidleitw/BlueAbyss) 應該要把workerQueue中back channel移動到外面，獨立出來，還在構思怎麼抽比較合適。
+
+#### 2021/02/21 ~ 2021/02/25
+- [x] 最近都在挑戰jserv linux課程的作業，目前正穩定的看影片中XD
