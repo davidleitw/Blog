@@ -203,8 +203,6 @@ paper 中有一個章節簡單分析了一下 ```chunk size``` 選擇的問題�
 
 ## 2.7.2 Implications for Applications
 
-待續.
-
 ## reference
 - [Google File System及其繼任者Colossus
 ](https://www.itread01.com/content/1546962067.html)
