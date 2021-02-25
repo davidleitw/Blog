@@ -3,7 +3,8 @@ title: Papers
 menu: 
     sidebar:
         name: 閱讀 Paper 心得整理
-        identifier: Paper
+        identifier: Paper Summary
+        parent: Paper
         weight: 100
 ---
 

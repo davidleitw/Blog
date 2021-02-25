@@ -3,7 +3,8 @@ title: GFS
 menu: 
     sidebar:
         name: The Google File System
-        identifier: Paper
+        identifier: GFS
+        parent: Paper 
         weight: 100
 ---
 
