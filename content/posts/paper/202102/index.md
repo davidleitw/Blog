@@ -174,9 +174,11 @@ paper 中有一個章節簡單分析了一下 ```chunk size``` 選擇的問題�
 
 `Data mutations(資料修改)` 也分成兩種不同的類型:
 - **`writes`** &rarr; 需要自行決定 `offset`:
+
 `writes` 可以讓 `application` 由指定的 `offset` 來決定位置寫入資料。
 
 - **`record appends`** &rarr; 由 `GFS` 指定 `offset`:
+
 `record appends` 可以確保動作是 atomic 且 at least once，其操作的 `offset` 由 `GFS` 來決定。寫入完成之後 `GFS` 會把實際寫入的 `offset` 回傳給客戶端(代表寫入 data 的 region 的起始位置)
 
 > `GFS` 可能會在文件中寫入 `padding(填充)` 或者重複的資料，就算有也只算佔整個文件的一小部份，這些多餘的資料 region 會被認為是 `Inconsistent`。
