@@ -1,11 +1,13 @@
 ---
 title: GFS
+date: 2021-02-26
 menu: 
     sidebar:
         name: The Google File System
         identifier: GFS
-        parent: Paper 
-        weight: 100
+        parent: _Paper 
+        weight: 20
+math: true
 ---
 
 跟著 [MIT6.824](https://pdos.csail.mit.edu/6.824/schedule.html) 的課程進度， 在 Lec3 終於拜讀了這篇經典的論文，**```GFS```** 是一個分散式的檔案系統，由 Google 開發。 在2003年時 Google 發表了 [The Google File System](https://pdos.csail.mit.edu/6.824/papers/gfs.pdf) 這篇論文來分享一些 **```GFS```** 開發上的細節， 雖然 Google 沒有開源這個著名的檔案系統， 不過還是可以由 paper 來窺探當初 Google 設計的細節以及整體的架構。
