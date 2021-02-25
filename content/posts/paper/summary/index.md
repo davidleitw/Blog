@@ -11,6 +11,7 @@ math: true
 ---
 
 這個資料夾專門整理一些看過的 paper，閱讀 paper 的經驗還有點不足，可能沒辦法表達得很清楚，不過還是會盡力去紀錄。
+期望是每個月可以寫一篇 paper 的心得文章XD
 
 - **2021 年 2 月**
     - [The Google File System(GFS)](https://davidleitw.github.io/posts/paper/202102/)
