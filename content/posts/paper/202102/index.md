@@ -203,6 +203,28 @@ paper 中有一個章節簡單分析了一下 ```chunk size``` 選擇的問題�
 
 ## 2.7.2 Implications for Applications
 
+大部分的 `application` 都採取 **appending(寫在尾部)** 的寫入方式， `GFS` 對於 append 有做性能上的優化。通常一個 `writer` 只會負責單一文件，不會寫入到一半跑去寫別的文件，當這次的寫入完成時，`GFS` 會保證原子性的方式把文件改名成一個永久的文件名稱。
+
+### checkpoint
+
+每個 `application` 都會週期性的維護一個 `checkpoint` 訊息，該訊息紀錄每次成功寫入後的位置同時也是 `Defined` 狀態的結束位置，每次 `append` 的操作都會更新這個訊息，`writer` 如果遇到什麼突發狀況中止了，下次也可以從 `checkpoint` 開始繼續寫入，`reader` 讀取資料也會把 `checkpoint` 當作結束位置。
+
+`checkpoint` 也會同時紀錄 `checksums` 來確保每個段落的正確性。`checkpoint` 的設計可以使得 `writer` 一段一段的寫入資料，讓 `reader` 可以從還沒有寫入完成的文件中讀取資料。
+
+### concurrently append
+
+在另外一個常見的使用場景，通常會有很多 `writer` 同時對同一個檔案做修改，通常是在合併結果或者是用於 `生產者–消費者模型`。`Record append` 的 `append-at-least-once` 特性保證了每個 `writer` 的輸出。
+
+在前面的[說明](#Consistency-Model-一致性模型)中有簡單提到過 `GFS` 可能會在文件中寫入 `padding(填充)` 或者`duplicates(重複的資料)`。`checkpoint` 也可以讓 `reader` 有效的處理上述的問題，盡可能得去避免讀到錯誤的資料。`writer` 在每次 `checkpoint` 的時候都會加入 `checksum` 來驗證上面段落的有效性，`reader` 可以藉由 `checksum` 來辨識 `padding` 或者 `duplicates`。
+
+在 paper 中也有簡單說明如果 `application` 某些應用場景無法忍受偶發的重複資料，可以在 `checkpoint` 的地方加入一個 `unique identifiers`，讀入資料的時候可以藉由 ID 來避免重複資料。
+
+## System interactions
+
+### Lease(租約)
+
+因為我們每份 `chunk` 都會備份在不同的 `chunk server` 內，所以需要有一個機制在修改完 `chunk` 之後讓所有複製的 `chunk` 都相同的內容。`GFS` 中使用 `leases` 去處理多個 `chunk` 在經過修改之後的一致性問題。
+
 ## reference
 - [Google File System及其繼任者Colossus
 ](https://www.itread01.com/content/1546962067.html)
