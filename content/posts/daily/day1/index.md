@@ -46,6 +46,11 @@ math: true
 - [x] 最近都在挑戰jserv linux課程的作業，目前正穩定的看影片中XD
 
 #### 2021/03/01 ~ 2021/03/07
+- [x] LeetCode: 19. Remove Nth Node From End of List
 - [x] LeetCode: 23. Merge k Sorted Lists
 - [x] LeetCode: 25. Reverse Nodes in k-Group
+- [x] LeetCode: 61. Rotate List
+- [x] LeetCode: 343. Integer Break 
+- [x] LeetCode: 1342. Number of Steps to Reduce a Number to Zero
+
 
