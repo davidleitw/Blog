@@ -52,5 +52,7 @@ math: true
 - [x] LeetCode: 61. Rotate List
 - [x] LeetCode: 343. Integer Break 
 - [x] LeetCode: 1342. Number of Steps to Reduce a Number to Zero
+- [x] LeetCode: 1688. Count of Matches in Tournament
+
 
 
