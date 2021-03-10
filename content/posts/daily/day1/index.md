@@ -59,7 +59,7 @@ math: true
 - [x] LeetCode: 1769. Minimum Number of Operations to Move All Balls to Each Box
 
 #### 2021/03/08 ~ 2021/03/14
-- [x] LeetCode: 92. Reverse Linked List II
+- [x] *LeetCode: 92. Reverse Linked List II
 
 
 
