@@ -56,9 +56,11 @@ math: true
 - [x] LeetCode: 1108. Defanging an IP Address
 - [x] LeetCode: 1342. Number of Steps to Reduce a Number to Zero
 - [x] LeetCode: 1688. Count of Matches in Tournament
-- [x] LeetCode: 1769. Minimum Number of Operations to Move All Balls to Each Box
+- [x] LeetCode: 1769. Minimum Number of Operations to Move All Balls to Each Box -> Not the best solution.
 
 #### 2021/03/08 ~ 2021/03/14
+- [x] LeetCode: 51. N-Queens
+- [x] LeetCode: 52. N-Queens II
 - [x] *LeetCode: 92. Reverse Linked List II
 
 
