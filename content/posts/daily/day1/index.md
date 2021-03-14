@@ -59,7 +59,7 @@ math: true
 - [x] LeetCode: 1769. Minimum Number of Operations to Move All Balls to Each Box -> Not the best solution.
 
 #### 2021/03/08 ~ 2021/03/14
-- [x] Blog推薦: [kubernetes相關資源,自訂 controller](https://k2r2bai.com/tags/Kubernetes/archives/5/)
+- [x] 優質 Blog: [kubernetes相關資源,自訂 controller](https://k2r2bai.com/tags/Kubernetes/archives/5/)
 - [x] LeetCode: 51. N-Queens
 - [x] LeetCode: 52. N-Queens II
 - [x] LeetCode: 39. Combination Sum
@@ -67,5 +67,6 @@ math: true
 - [x] LeetCode: 216. Combination Sum III
 - [x] *LeetCode: 92. Reverse Linked List II
 
-
+#### 2021/03/15 ~ 2021/03/21
+- [x] 優質 Blog: [深入 K8s](https://www.luozhiyun.com/archives/tag/%e6%b7%b1%e5%85%a5k8s)
 
