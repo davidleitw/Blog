@@ -71,4 +71,6 @@ math: true
 - [x] 優質 Blog: [深入 K8s](https://www.luozhiyun.com/archives/tag/%e6%b7%b1%e5%85%a5k8s)
 - [x] LeetCode: 86. Partition List
 - [x] *LeetCode: 142. Linked List Cycle II
+- [x] LeetCode: 513. Find Bottom Left Tree Value
+- [x] LeetCode: 703. Kth Largest Element in a Stream 
 
