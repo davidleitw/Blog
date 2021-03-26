@@ -76,3 +76,4 @@ math: true
 
 #### 2021/03/22 ~ 2021/03/28
 - [x] *LeetCode: 973. K Closest Points to Origin, 類 quick sort 的解法還無法理解
+- [x] LeetCode: 451. Sort Characters By Frequency
