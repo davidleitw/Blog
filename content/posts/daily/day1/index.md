@@ -74,3 +74,5 @@ math: true
 - [x] LeetCode: 513. Find Bottom Left Tree Value
 - [x] LeetCode: 703. Kth Largest Element in a Stream 
 
+#### 2021/03/22 ~ 2021/03/28
+- [x] *LeetCode: 973. K Closest Points to Origin, 類 quick sort 的解法還無法理解
