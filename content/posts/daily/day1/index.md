@@ -75,5 +75,7 @@ math: true
 - [x] LeetCode: 703. Kth Largest Element in a Stream 
 
 #### 2021/03/22 ~ 2021/03/28
-- [x] *LeetCode: 973. K Closest Points to Origin, 類 quick sort 的解法還無法理解
+- [x] LeetCode: 313. Super Ugly Number 
 - [x] LeetCode: 451. Sort Characters By Frequency
+- [x] *LeetCode: 973. K Closest Points to Origin, 類 quick sort 的解法還無法理解
+- [x] [優質 os 電子書](https://pages.cs.wisc.edu/~remzi/OSTEP/)
