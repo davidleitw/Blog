@@ -81,4 +81,9 @@ math: true
 - [x] [優質 os 電子書](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 #### 2021/03/29 ~ 2021/04/04
+- [x] LeetCode: 215. Kth Largest Element in an Array
 - [x] LeetCode: 347. Top K Frequent Elements
+- [x] LeetCode: 692. Top K Frequent Words
+- [x] LeetCode: 767. Reorganize String 
+- [x] LeetCode: 1753. Maximum Score From Removing Stones
+ 
