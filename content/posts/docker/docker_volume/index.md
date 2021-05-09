@@ -4,8 +4,8 @@ date: 2021-05-10
 menu:
   sidebar:
     name: "Docker Volume 用法整理"
-    identifier: docker_volume_1
-    parent: docker
+    identifier: dockervolume1
+    parent: Docker
     weight: 16
 math: true
 ---

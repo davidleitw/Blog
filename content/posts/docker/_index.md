@@ -3,6 +3,6 @@ title: Docker
 menu: 
     sidebar:
         name: Docker
-        identifier: docker
+        identifier: Docker
         weight: 100
 ---
