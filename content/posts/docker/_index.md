@@ -1,8 +1,8 @@
 ---
-title: docker
+title: Docker
 menu: 
     sidebar:
-        name: docker
-        identifier: _docker
+        name: Docker
+        identifier: docker
         weight: 100
 ---

@@ -5,7 +5,7 @@ menu:
   sidebar:
     name: "Docker Volume 用法整理"
     identifier: docker_volume_1
-    parent: _docker
+    parent: docker
     weight: 16
 math: true
 ---
