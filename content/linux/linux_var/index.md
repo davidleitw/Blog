@@ -64,27 +64,35 @@ $ var = something // 等號兩邊不得有空格
 
 - 如果變數內容包含著其他變數，需要用 "" 包起來，請看下方範例
   用 '' 包起來 `bash` 就不會把 `$變數` 置換成該變數的內容。
+  
   ![](https://i.imgur.com/WojjWua.png)
 
 4. 用跳脫字元 `\` 可以特殊符號置換成一般字元
+  
   ![](https://i.imgur.com/N9K7Z6M.png)
 
 5. 如果要用現有的變數組合成新的變數的時候有兩個寫法
+
 假設今天我們團隊主要的工作目錄是在 `/davidlei/project/`，一開始建立目錄的時候我們把這個路徑設了一個變數 `$work`
+
 \
+
 現在假設 `$work` 路徑底下有兩個子目錄 `project1`, `project2`
 我們想用 `workdir1`, `workdir2` 兩個變數來代表這兩個 project 的路徑
 我們可以用底下兩種寫法
+
 \
+
 ![](https://i.imgur.com/8UhGbDI.png)
 
-6. 若要把一個變數設定成環境變數還需要使用 `export`
+6. 若要把一個變數設定成環境變數還需要使用 **`export`**
 ```shell
 $ var=xxx
 $ export var
 ```
 
-7. 取消變數使用 `unset`
+7. 取消變數使用 **`unset`**
+
 ![](https://i.imgur.com/qwBEo4O.png)
 
 ### reference 
