@@ -81,13 +81,14 @@ $ var = something // 等號兩邊不得有空格
 
 ![](https://i.imgur.com/8UhGbDI.png)
 
-6. 若要把一個變數設定成環境變數還需要使用 **`export`**
+6. 若要把一個變數設定成全域變數還需要使用 **`export`**
 ```shell
 $ var=xxx
 $ export var
 ```
-
-7. 取消變數使用 **`unset`**
+> 此方式宣告的全域變數不等於環境變數，把 bash 關掉之後變數資料就會清除
+> 
+1. 取消變數使用 **`unset`**
 
 ![](https://i.imgur.com/qwBEo4O.png)
 
