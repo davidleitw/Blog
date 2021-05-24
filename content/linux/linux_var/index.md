@@ -1,9 +1,9 @@
 ---
-title: "Linux shell 變數相關用法" 
+title: "Linux shell 變數相關用法 assign, echo, export, unset" 
 date: 2021-05-10
 menu:
   sidebar:
-    name: "Linux shell 變數相關用法整理"
+    name: "Linux shell 變數相關用法_1"
     identifier: linuxshellvar1
     parent: Linux
     weight: 16
@@ -87,7 +87,8 @@ $ var=xxx
 $ export var
 ```
 > 此方式宣告的全域變數不等於環境變數，把 bash 關掉之後變數資料就會清除
-> 
+
+
 1. 取消變數使用 **`unset`**
 
 ![](https://i.imgur.com/qwBEo4O.png)
