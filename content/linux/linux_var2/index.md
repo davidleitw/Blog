@@ -49,7 +49,7 @@ $
 
 ![](https://i.imgur.com/Q7PFV45.png)
 
-### array
+## array
 
 以 `arr[index]=content` 的形式來指定 array Index 所代表的值。 
 
