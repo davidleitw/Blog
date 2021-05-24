@@ -1,9 +1,9 @@
 ---
 title: "Linux shell 變數相關用法 read, declare, array" 
-date: 2021-05-10
+date: 2021-05-25
 menu:
   sidebar:
-    name: "Linux shell 變數相關用法整理_2"
+    name: "Linux shell 變數相關用法_2"
     identifier: linuxshellvar2
     parent: Linux
     weight: 16
