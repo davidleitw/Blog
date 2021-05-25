@@ -6,7 +6,7 @@ menu:
     name: "Linux shell 變數相關用法_1"
     identifier: linuxshellvar1
     parent: Linux
-    weight: 16
+    weight: 18
 math: true
 ---
 
