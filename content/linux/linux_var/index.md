@@ -1,5 +1,5 @@
 ---
-title: "Linux shell 變數相關用法 assign, echo, export, unset" 
+title: "Linux shell 變數相關用法: assign, echo, export, unset" 
 date: 2021-05-10
 menu:
   sidebar:

@@ -1,5 +1,5 @@
 ---
-title: "Linux shell 變數相關用法 read, declare, array" 
+title: "Linux shell 變數相關用法: read, declare, array" 
 date: 2021-05-25
 menu:
   sidebar:
